@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
     },
     {
       'questionText': 'Dimana tempat favorite anda?',
-      'answers': ['1 ekor', '2 ekor', '3 ekor', '4 ekor'],
+      'answers': ['Rumah', 'Kampus', 'Pantai', 'Mall'],
     },
  ];
  var _questionIndex = 0;
