@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 import './question.dart';
+import './answer.dart';
+
 // void main() {
 //   runApp(MyApp());
 // }
@@ -10,7 +12,7 @@ void main() => runApp(MyApp());
 class MyApp extends StatefulWidget {
  @override
  State<StatefulWidget> createState() {
-   // TODO: implement createState
+
    return _MyAppState();
  }
 }
@@ -38,7 +40,7 @@ class _MyAppState extends State<MyApp> {
        ),
        body: Column(
          children: [
-         Question(
+           Question(
              questions[_questionIndex],
            ),
            ElevatedButton(
@@ -52,6 +54,7 @@ class _MyAppState extends State<MyApp> {
            ElevatedButton(
              child: Text('jawab 3'),
              onPressed: () {
+               // ...
                print('jawab 3 dipilih');
              },
            ),
@@ -59,6 +62,3 @@ class _MyAppState extends State<MyApp> {
        ),
      ),
    );
- }
-}
-
