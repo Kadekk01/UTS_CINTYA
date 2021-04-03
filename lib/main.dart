@@ -23,8 +23,8 @@ class _MyAppState extends State<MyApp> {
       'answers': ['Sate', 'Gulai', 'Rawon', 'Soto'],
     },
     {
-      'questionText': 'Apa peliharaan favorit anda?',
-      'answers': ['Anjing', 'kucing', 'Burung', 'Ular'],
+      'questionText': 'Apa mobil favorit anda?',
+      'answers': ['Juke', 'Pajero', 'Rush', 'Terios'],
     },
     {
       'questionText': 'Berapa jumlah peliharaan anda?',
